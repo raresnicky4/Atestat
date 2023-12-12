@@ -1,0 +1,94 @@
+/* Stil pentru antet (header) */
+header {
+    background-image: url("images/fundal3.png");
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+body, h2, h3, p, ul, li {
+    background-image: url("images/fundal2.jpg");
+    margin: 0;
+    padding: 0;
+}
+.branduri
+{
+    
+    display: inline-block;
+            justify-content:space-evenly;
+            margin-left: 350px;
+            
+}
+.chanel
+{
+    margin-left: 350px;
+}
+.sectiune
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.meniu li
+{
+    list-style:none;
+
+}
+.titlu
+{
+    text-align: center;
+    font-size: 0.7em;
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+}
+.titlu-header
+{
+    background-image: url("images/fundal3.png");
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+.meniu a
+{
+    color: #000000;
+}
+
+
+.meniu 
+{
+    background-color: #000000;
+    margin: -40px;
+    left: 45px;
+    position:absolute
+    
+}
+
+/* Stil pentru titlul din antet */
+h1 {
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+/* Stil pentru meniu de navigare */
+
+/* Stil pentru sectiuni */
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* Stil pentru subsol */
+footer {
+    background-color: #333;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
